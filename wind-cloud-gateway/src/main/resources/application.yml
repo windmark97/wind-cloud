@@ -14,6 +14,10 @@ spring:
             - Path=/foo/**
           filters:
             - StripPrefix=1
-
+            - name: RequestRateLiteimr
+              args:
+                redis-rate-limiter.replenishRate: 10
+                redis-rate-limiter.burstCapacity: 20
+                key-resolver: "#{@ipKeyResolver}"
 
 hystrix.command.fallbackcmd.execution.isolation.thread.timeoutInMilliseconds: 5000
