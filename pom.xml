@@ -18,6 +18,7 @@
     <modules>
         <module>wind-cloud-base</module>
         <module>wind-cloud-gateway</module>
+        <module>wind-cloud-eureka</module>
         <module>wind-cloud-common</module>
     </modules>
     <properties>
