@@ -21,6 +21,7 @@
         <module>wind-cloud-service</module>
         <module>wind-cloud-dao</module>
         <module>wind-cloud-model</module>
+        <module>wind-cloud-common</module>
     </modules>
     <properties>
         <project.version>1.0-SNAPSHOT</project.version>
