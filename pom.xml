@@ -19,6 +19,8 @@
         <module>wind-cloud-base</module>
         <module>wind-cloud-gateway</module>
         <module>wind-cloud-service</module>
+        <module>wind-cloud-dao</module>
+        <module>wind-cloud-model</module>
     </modules>
     <properties>
         <project.version>1.0-SNAPSHOT</project.version>
