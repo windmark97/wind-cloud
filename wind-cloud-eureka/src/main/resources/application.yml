@@ -1,0 +1,37 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: wind-cloud-eureka
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: ${spring.application.name}:${server.port}
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+
+users:
+  admin:
+    name: admin
+    password: admin
+    roles: ADMIN,PC,APIUSER
+  pc:
+    name: pc
+    password: 123456
+    roles: PCSERVER
+  app:
+    name: app
+    password: 123456
+    roles: app
+  apiuser:
+    name: apiuser
+    password: 123456
+    roles: APIUSER
+  zuul:
+    name: zuul
+    password: 123456
+    roles: ZUUL
