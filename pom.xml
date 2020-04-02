@@ -17,9 +17,10 @@
     <description>Demo project wind</description>
     <modules>
         <module>wind-cloud-base</module>
+        <module>wind-cloud-common</module>
         <module>wind-cloud-gateway</module>
         <module>wind-cloud-eureka</module>
-        <module>wind-cloud-common</module>
+        <module>wind-cloud-service</module>
     </modules>
     <properties>
         <project.version>1.0-SNAPSHOT</project.version>
@@ -29,7 +30,13 @@
         <spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
     </properties>
     <dependencyManagement>
+
         <dependencies>
+            <dependency>
+                <groupId>com.wind.cloud.common</groupId>
+                <artifactId>wind-cloud-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
