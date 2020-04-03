@@ -1,10 +1,10 @@
-package com.wind.cloud.service;
+package com.wind.data;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WindCloudServiceApplicationTests {
+class WindDataApplicationTests {
 
     @Test
     void contextLoads() {

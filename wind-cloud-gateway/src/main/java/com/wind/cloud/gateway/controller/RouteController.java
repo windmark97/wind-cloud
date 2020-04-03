@@ -17,7 +17,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
  * 路由增删改controller
  * @ClassName: RouteController
  * @Description: <br>
@@ -28,6 +27,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/route")
 public class RouteController {
+
     @Autowired
     private DynamicRouteServiceImpl dynamicRouteService;
 

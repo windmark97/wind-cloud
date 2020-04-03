@@ -20,7 +20,7 @@
         <module>wind-cloud-common</module>
         <module>wind-cloud-gateway</module>
         <module>wind-cloud-eureka</module>
-        <module>wind-cloud-service</module>
+        <module>wind-data</module>
     </modules>
     <properties>
         <project.version>1.0-SNAPSHOT</project.version>
