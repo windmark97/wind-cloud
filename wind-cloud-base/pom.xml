@@ -15,7 +15,7 @@
     <properties>
         <guava.version>16.0.1</guava.version>
         <lombok.version>1.16.22</lombok.version>
-        <fastjson.version>1.2.49</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <commons.lang3.version>3.5</commons.lang3.version>
         <commons.collections4>4.1</commons.collections4>
         <springboot.version>2.2.2.RELEASE</springboot.version>
